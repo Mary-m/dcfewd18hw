@@ -1,25 +1,36 @@
 
-img{
-	width:150px;
-	height:150px;
-	margin: 15 515 0 515;
 
-}
+	img{
+	width:125px;
+	height:125px;
+	margin: 15 515 0 515;}
+
+
 h1{
 	text-align: center;
 	background-color: beige;
-	font-size: 35pt;
+	font-size: 35pt;}
+
+	h2{
+	text-align: center;
+	font-size: 12pt;
 
 }
+
 p{
-	text-align: center;
 	font-size: 12pt;
 }
 
-h4{
+h3{
 	text-align: center;
 }
 h2{
 	text-align: center;
 	font-size: 12pt;
+}
+body{
+	img{
+		width:250px;
+		height:250px;
+	}
 }
