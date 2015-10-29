@@ -58,16 +58,115 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 960px;
-  margin: auto;
+  margin: 0 auto;
 }
 
-header {
+header{
+  background-color: #033048;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
 
+.rlxr_nav_logo{
+  color: white;
+  font-weight: bold;
+  float: left;
+  width: 320px;
+  font-size:28px;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-family:'Open Sans', Helvetica, sans-serif;
+}
+.rlxr_nav_menu {
+  float:right;
+  margin:20px 30px 10px 0;
+}
+.rlxr_nav_menu > li {
+    display:inline-block;
+    font-family:'Open Sans', Helvetica, arial,sans-serif;
+    font-size: 20px;
+}
+
+.rlxr_nav_menu > li > a{
+    color: #f9e42e;
+    text-decoration: none;
+    display:block;
+    padding:15px;
+}
+.rlxr_nav_menu > li > a:hover {
+    color:red; 
+}
+
+.wrapper{
+  background-color: #f0efef;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.mainart{
+  width:72%;
+  float: left;
+}
+.mainart h1 {
+  font-family: 'Open Sans', Helvetica, arial;
+  font-size: 28px;
+  font-weight: 400px;
+  color: #033048;
+}
+p{
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+.side {
+  width: 25%;
+  float: right;
+  margin-right: 10px;
+  color: #033048;
+}
+.sidecatg {
+    position: relative;
+    display:block;
+    text-decoration: none;
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 20px;
+}
+.side  h1{
+  font-size: 30px;
+  font-weight:600;
+}
+.sidecatg a{
+  text-decoration: none;
+  color: #033048;
+}
+.sideabout {
+  position: relative;
+  display:block;
+}
+.sideabout h2{
+  font-size: 20px;
+  font-weight:600;
+  color: #033048;
+}
+
+.sideabout a{
+  color: #033048;
+}
+
+.ad{ 
+  padding-top: 20px;
 }
 
 footer {
+  clear: both;
 
 }
 
