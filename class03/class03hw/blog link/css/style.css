@@ -1,0 +1,141 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 26px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.logo{ 
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+}
+header {
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  background-size: cover;
+  height: 500px;
+  padding-top: 32px;
+  
+}
+.tagline {
+  color:white;
+  text-align: center;
+  font-weight: 400;
+  line-height: 2em;
+  font-size: 32px;
+
+}
+
+.btn {
+  background: #f9e42e;
+  border-radius: 5px;
+  width: 200px;
+  padding: 10px;
+  width:250px;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+  position:relative;
+  display:block;
+  color:#033048;
+  font-weight: bold;
+}
+.benefits{
+  height: 400px;
+  padding-top: 32px;
+  background-color: #f0efef;
+  background-size: cover;
+  display:block;
+  position:relative;
+  padding-left: 25px;
+}
+h2{
+  font-weight: 400;
+  color:#033048;
+  font-size: 30px;
+}
+.benefits p{
+  color: grey;
+  font-size: 20px;
+}
+ul{
+  color:grey;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.testimonial {
+  background: url(../images/testimonial_bg.jpg);
+  background-size:cover;
+  height: 300px;
+  color:white;
+  text-align: center;
+  padding:30px;
+  font-style: italic
+}
+p{
+  font-style:normal;
+}
+aside { 
+background:#f9e42e;
+padding: 20px;
+}
+
+.blue{
+  background-color: #033048;
+  padding:7px;
+  color:white;
+  font-size: 22px;
+  font-weight: normal;
+  }
+footer {
+  background: #121212;
+  padding:60px;
+  text-align: center;
+}
+
+h3{
+  color: #f9e42e;
+  text-align: center;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 32px;
+}
+ footer ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 70px 0 0px;
+
+ }
+footer p{
+  font-size: 15px;
+  font-weight: 300px;
+  color:white;
+
+}
+
+
+
+

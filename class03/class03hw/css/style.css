@@ -69,14 +69,16 @@ header{
   overflow: hidden;
   display: block;
   position: relative;
+  padding: 10 10 10 10;
 }
 
 .rlxr_nav_logo{
   color: white;
   font-weight: bold;
+  letter-spacing: 1.5px;
   float: left;
   width: 320px;
-  font-size:28px;
+  font-size:32px;
   margin-top: 10px;
   margin-left: 40px;
   font-family:'Open Sans', Helvetica, sans-serif;
@@ -89,6 +91,7 @@ header{
     display:inline-block;
     font-family:'Open Sans', Helvetica, arial,sans-serif;
     font-size: 20px;
+    font-weight: 400px;
 }
 
 .rlxr_nav_menu > li > a{
@@ -101,26 +104,45 @@ header{
     color:red; 
 }
 
-.wrapper{
+.wrapper {
   background-color: #f0efef;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
 }
 
 .mainart{
   width:72%;
   float: left;
+  padding-left: 40px;
 }
 .mainart h1 {
   font-family: 'Open Sans', Helvetica, arial;
-  font-size: 28px;
-  font-weight: 400px;
+  font-size: 30px;
+  font-weight: 600;
   color: #033048;
+  padding-top: 40px;
+  padding-bottom: 15px;
 }
 p{
   font-family: Helvetica, arial, sans-serif;
+  font-size: 16px;
+  color: #606161;
+  padding-top: 15px;
+}
+
+.mainart a{
+  color: #033048;
+  text-decoration: none;
+}
+.mainart h2{
   font-size: 20px;
+  font-weight:600;
+  color: #033048;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  text-align: right;
+  border-bottom: 2px solid;
+}
+.article2> h2{
+  margin-bottom: 70px;
 }
 
 img {
@@ -131,6 +153,8 @@ img {
   float: right;
   margin-right: 10px;
   color: #033048;
+  padding-right: 40px;
+  padding-top: 40px;
 }
 .sidecatg {
     position: relative;
@@ -138,10 +162,12 @@ img {
     text-decoration: none;
     font-family: Helvetica, arial, sans-serif;
     font-size: 20px;
+    padding-bottom: 20px;
 }
 .side  h1{
-  font-size: 30px;
+  font-size: 26px;
   font-weight:600;
+  padding-bottom: 10px;
 }
 .sidecatg a{
   text-decoration: none;
@@ -151,18 +177,71 @@ img {
   position: relative;
   display:block;
 }
+
+
+.sideabout a{
+  color: #033048;
+  text-decoration: none;
+}
+
+.sideabout p{
+  font-size: 18px
+}
 .sideabout h2{
   font-size: 20px;
   font-weight:600;
   color: #033048;
-}
-
-.sideabout a{
-  color: #033048;
+  padding-bottom: 40px;
 }
 
 .ad{ 
   padding-top: 20px;
+}
+
+aside { 
+background:#f9e42e;
+padding: 20px;
+}
+
+.blue {
+  background-color: #033048;
+  color:white;
+  font-size: 24px;
+  font-weight: normal;
+  border-radius: 5px;
+  width: 200px;
+  padding: 10px;
+  width:250px;
+  text-align: center;
+  margin: 0 auto;
+  position:relative;
+  display:block;
+  }
+footer {
+  background: #121212;
+  padding:60px;
+  text-align: center;
+}
+
+footer h1{
+  color: #f9e42e;
+  text-align: center;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+}
+ footer ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 25px;
+
+ }
+footer p{
+  font-size: 15px;
+  font-weight: 300px;
+  color:white;
+
 }
 
 footer {
