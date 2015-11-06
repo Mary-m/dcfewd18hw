@@ -100,10 +100,10 @@
  * When button 3 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
  * Bonus: Try to do this with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"});
  */
- 	function question9() {
-   	$("p").css("color", "blue", "font", "Georgia");
-    }
-     $("#button3").click(question9);
+ 	//function question9() {
+   	//$("p").css("color", "blue", "font", "Georgia");
+    //}
+     //$("#button3").click(question9);
 
 
 
