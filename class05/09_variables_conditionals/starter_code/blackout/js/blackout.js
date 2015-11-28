@@ -1,3 +1,4 @@
+$('#light_switch').click(switchLights);
 var lights ='on';
 
 
@@ -14,4 +15,3 @@ function switchLights() {
 	
 }
 
-$('#light_switch').click(switchLights);
