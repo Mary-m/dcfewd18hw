@@ -303,9 +303,9 @@ header nav {
 }
 
 header nav ul li {
-  display: block;
+  display: inline;
   margin: 0 0 0 20px;
-  font-size: 22px;
+  font-size: 18px;
 }
 #hero {
   height: 500px;
@@ -336,7 +336,7 @@ margin-top: 25px;
 }
 
 #posts {
-  width:100%;
+ width:auto;
   display:block;
   margin-left: 20px;
   margin-right: 20px;
@@ -348,6 +348,7 @@ margin-top: 25px;
   margin-left: 20px;
   margin-right: 20px;
 }
+#sidebar h3, ul li
 aside img{
   display:none;
 }
@@ -364,13 +365,13 @@ aside img{
 
 .post h2 {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.2;
   margin-bottom: 20px;
 }
 
 .post p {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.2;
  }
  
